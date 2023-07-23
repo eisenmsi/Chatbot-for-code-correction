@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chatbot-for-code-correction"
+version = "0.1.0"
+description = ""
+authors = ["Simon Eisenmann <simon.eisenmann98@web.de>"]
+readme = "README.md"
+packages = [{include = "chatbot_for_code_correction"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.8"
+panel = "^1.2.0"
+notebook = "^7.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
